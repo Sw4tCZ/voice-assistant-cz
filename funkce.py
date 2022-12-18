@@ -1,9 +1,11 @@
-
+#definování času
 def time():
         time = datetime.datetime.now().strftime("%H:%M:%S")
         speak(time)
         print(time)
 
+#definování data
+        
 def date():
     date = int(datetime.datetime.now().day)
     now = (datetime.datetime.now())
@@ -16,7 +18,7 @@ def date():
     speak(month)
     speak(year)
 
-
+#definování oslovení
 
 def wishme():
     speak("Vítejte zpět")
