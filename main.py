@@ -21,7 +21,7 @@ if __name__ == "__main__":
         elif "log out" in query:    # Odhlášení ze systému
             speak("Odhlásím za pět vteřin")
             sleep(5)
-            os.system("shutdown - l")
+            os.system("shutdown /l")
 
         elif "restart" in query:    # Restart systému
             speak("Restartuji za pět vteřin")
